@@ -1,0 +1,53 @@
+body { font-family: 'Swis721', Arial, sans-serif; color: #fff; border-top: 20px solid #FFCB04; background: #233741; text-align: center; font-size: 15px; line-height: 1.4em; margin: 0; padding: 0;  }
+h1 { line-height:1em; font-size:23px;   }
+h2 { font-weight:normal; color:#FFCB04}
+.main { width: 500px; text-align:left; margin: 0 auto; text-align: right; padding-top:100px;   }
+.col1 { float: left; width: 270px; text-align: justify;   }
+.col2 { float:right; width: 200px; font-weight: bold; color: #FFCB04;  }
+.col2 a { font-weight: bold; color: #FFCB04; text-decoration: underline; }
+.col2 a:hover { background: #FFCB04; color: #233741; text-decoration: none; }
+ul.lowerblocks { clear: both; margin:0; padding:30px 0 0 0; text-align: left; }
+ul.lowerblocks li { display: block; float: left; margin: 0; padding: 0; }
+.breadcrumbs { text-align:left; clear:both; font-size:10px; color:#487286 }
+.breadcrumbs a {  color:#487286 }
+.bottom { clear: both; text-align: left; }
+.top { clear: both; text-align: left; }
+
+
+@media (min-width: 800px) { 
+
+	ul.lowerblocks {  width: 520px; }
+	ul.lowerblocks li { display: block; float: left; margin: 0; padding: 0; }
+	ul.lowerblocks a { display: block; float: left;  width: 132px; height: 130px; padding: 10px; margin: 0 20px 20px 0; background:#FFCB04; vertical-align: bottom;  }
+	ul.lowerblocks a { color: #233741; font-size:19px; text-decoration: none; }
+	ul.lowerblocks a.third { margin-right: 0; }
+
+}
+
+@media (min-width:540px) and (max-width: 800px) {
+
+	body { padding: 10px; }
+	.main { padding: 0; }
+	ul.lowerblocks {  width: 520px; }
+	ul.lowerblocks li { display: block; float: left; margin: 0; padding: 0; }
+	ul.lowerblocks a { display: block; float: left;  width: 132px; height: 130px; padding: 10px; margin: 0 20px 20px 0; background:#FFCB04; vertical-align: bottom;  }
+	ul.lowerblocks a { color: #233741; font-size:19px; text-decoration: none; }
+	ul.lowerblocks a.third { margin-right: 0; }
+
+
+}
+
+@media (max-width: 540px) {
+	body { padding: 10px; }
+	.main { width: 100%; margin: 0; padding:0; }
+	.col1, .col2 { clear: both; width: 100%; text-align: left; }
+	ul.lowerblocks{ width: 100%; margin-top: 20px; }
+	ul.lowerblocks li { float: none; background: #FFCB04; padding: 10px; margin-bottom: 10px;  }
+	ul.lowerblocks a { float: none; display: block; height:auto; width: 100%; clear: both; color: #233741; text-decoration: none;}
+	
+
+}
+
+
+ 
+.facebook { background:#fff;  overflow: hidden; border: 1px solid #d5d5d5; }
