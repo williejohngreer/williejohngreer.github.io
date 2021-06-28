@@ -1,0 +1,22 @@
+# williejohngreer.co.uk
+# v1.0
+
+Sitemap: https://williejohngreer.co.uk/sitemap.xml
+
+User-agent: *
+Disallow: /admin
+Disallow: /*.php
+Disallow: /*.phtml
+Disallow: /_config.yml
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+Disallow: /_config.yml
+Disallow: /cgi-bin/
+Disallow: /404
+Disallow: /private
+Disallow: /wp-admin
+Disallow: /wp-login.php
+Disallow: /wp-includes
+Disallow: /404.html
+Disallow: /portal
+
